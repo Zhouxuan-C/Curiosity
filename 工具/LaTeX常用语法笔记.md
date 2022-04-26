@@ -14,13 +14,13 @@ Typora需要手动打开：文件 => 偏好设置 => Markdown , 勾选 '内联�
 
 ```latex
 % 逻辑 
-\Rightarrow 、 \Leftrightarrow 、\hat{a} 、\overline{ijk} 、\land 、\lor 、\neg 、\to
+\Rightarrow 、 \Leftrightarrow 、\hat{a} 、\overline{ijk} 、\land 、\lor 、\neg 、\to 、\exists 、\forall
 
 % 向量
 \vec{c} 、\overrightarrow{ab}、 \widehat{abcd} 
 
-% 小于等于 、大于等于 、等价 、不等于 、约等于
-\leq 、\geq 、 \sim 、\neq 、\approx
+% 小于等于 、大于等于 、等价 、不等于 、约等于 、恒等于
+\leq 、\geq 、 \sim 、\neq 、\approx 、\equiv
 
 % 极限 、积分
 \lim_{n \to \infty}X^n 、 \int_{-N}^{N} e^x\,dx 、\iint_{D}^{W} \,dx \,dy
@@ -32,17 +32,17 @@ Typora需要手动打开：文件 => 偏好设置 => Markdown , 勾选 '内联�
 C^n_{r-a} 、C_{r-a}^{n-a} 
 
 % 希腊字母
-\pi 、 \Alpha  \alpha 、 \Beta  \beta 、\Delta \delta 、\Eta  \eta 、 \Phi \phi 、 \Xi  \xi
+\pi 、 \Alpha  \alpha 、 \Beta  \beta 、\Delta \delta 、\Eta  \eta 、 \Phi \phi \psi \varphi 、 \Xi  \xi
 ```
 
 $$
 \begin{align*}
 
-& 逻辑 & \Rightarrow 、 \Leftrightarrow 、\hat{a} 、\overline{ijk} 、\land 、\lor 、\neg 、\to\\ 
+& 逻辑 & \Rightarrow 、 \Leftrightarrow 、\hat{a} 、\overline{ijk} 、\land 、\lor 、\neg 、\to 、 \exists 、\forall \\ 
 
 & 向量 & \vec{c} 、\overrightarrow{ab}、 \widehat{abcd} \\
 
-& 小于等于 & \leq 、\geq 、\sim 、 \neq 、\approx \\
+& 小于等于 & \leq 、\geq 、\sim 、 \neq 、\approx 、\equiv \\
 
 & 极限、积分：&\lim_{n \to \infty}x^n 、 \int_{-N}^{N} e^x\,dx 、 \iint_{D}^{W} \,dx \,dy \\
 
@@ -50,7 +50,7 @@ $$
 
 & 矩阵：& C^n_{r-a} 、C_{r-a}^{n-a} \\
 
-& 希腊字母：& \pi 、 \Alpha  \alpha 、 \Beta  \beta 、\Delta \delta 、\Eta  \eta 、 \Phi \phi 、 \Xi  \xi \\
+& 希腊字母：& \pi 、 \Alpha  \alpha 、 \Beta  \beta 、\Delta \delta 、\Eta  \eta 、 \Phi \phi \psi \varphi 、 \Xi  \xi \\
 
 \end{align*}
 $$
